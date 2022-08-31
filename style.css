@@ -158,7 +158,8 @@ body{
 
 .bannersection {
     background-color: #E5E7EB;
-    padding: 20px 0;
+    padding-top: 120px;
+    padding-bottom: 20px;
     position: relative;
 }
 
