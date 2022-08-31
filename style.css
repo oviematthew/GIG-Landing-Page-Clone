@@ -201,7 +201,10 @@ body{
     .bannersection {
         padding-top: 100px;
     }
-    
+    #bannerbtn {
+        width: 100px;
+        font-size: 10px;
+    }
 }
 /* End Banner Section */
 
