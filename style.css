@@ -191,11 +191,15 @@ body{
 
     .bannertext {
         padding: 0 5px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .bannerimg {
-        width: 70px !important;
+        width: 60px !important;
+    }
+    
+    .bannersection {
+        padding-top: 100px;
     }
     
 }
