@@ -1,3 +1,5 @@
+/* Css Reset */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,9 +53,13 @@ table {
     --light-bg-color: #F3F4F6;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
+    
 }
 
 
@@ -183,8 +189,12 @@ body{
 @media only screen and (max-width: 700px)  {
 
     .bannertext {
-        padding: 0 10px;
+        padding: 0 5px;
         font-size: 12px;
+    }
+
+    .bannerimg {
+        width: 70px !important;
     }
     
 }
@@ -262,6 +272,10 @@ body{
         font-size: 15px;
       } 
     
+      #trackform {
+        font-size: 12px;
+        
+      }
 
   }
   .input-group {
