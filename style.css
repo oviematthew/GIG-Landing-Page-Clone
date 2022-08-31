@@ -1,0 +1,659 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Css Reset End */
+
+:root {
+    --primary-color: #D5343A;
+    --text-color: #374151;
+    --other-text-color: #4B5563;
+    --light-bg-color: #F3F4F6;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Navbar Section */
+#webbtn {
+    font-size: 14px;
+    width: 135px;
+    height: 40px;
+}
+
+@media only screen and (min-width: 1401px) {
+
+
+#nav {
+    margin-top: 15px !important ;
+    margin-bottom: 15px !important ;
+    margin-left: 180px !important;
+    margin-right: 180px !important;
+   
+}
+
+
+#navbarsExample05 {
+    
+    margin-left: 100px;
+    
+    
+}
+
+
+#mobilebtn {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px)  {
+    
+    #nav {
+        margin-top: 15px !important ;
+        margin-bottom: 15px !important ;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+#navbarsExample05 {
+    
+    margin-left: 30px;
+    
+    
+}
+
+#mobilebtn {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 990px) {
+
+#webbtn {
+    display: none;
+}
+}
+
+.nav-item {
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.dropdown-item:hover {
+    color: var(--primary-color) !important; 
+}
+.nav-link:hover {
+    color: var(--primary-color) !important; 
+}
+
+
+
+#nav{
+    justify-content: space-around !important;
+} 
+
+
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    border: none;
+}
+
+
+
+/* End Navbar */
+
+/* Begin banner Section */
+
+.bannersection {
+    background-color: #E5E7EB;
+    padding: 20px 0;
+    position: relative;
+}
+
+#bannercol {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bannertext {
+    padding: 0 20px;
+    text-align: center;
+    color: #6B7280;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.btn-dark{
+
+    border-radius: 0;
+    padding: 10px 20px;
+}
+.spantext {
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 700px)  {
+
+    .bannertext {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    
+}
+/* End Banner Section */
+
+/* Begin Hero Section */
+.herosection{
+    background: #19191b url(/images/banner.18a7ae5d.jpeg) no-repeat;
+    background-size: cover;
+    height: 630px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.herosection::before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+     
+    }
+
+
+#herocontainer {
+
+      position: relative;
+    }
+
+#herocol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+  
+ .Heroh1 {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 30px;
+   }
+
+  .herop {
+    color: #fff;
+    padding-bottom: 30px;
+    font-size: 20px;
+  } 
+
+
+
+  @media only screen and (max-width: 800px)  {
+
+    .Heroh1 {
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+        padding-bottom: 30px;
+       }
+    
+      .herop {
+        color: #fff;
+        padding-bottom: 30px;
+        font-size: 15px;
+      } 
+    
+
+  }
+  .input-group {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #trackform {
+    max-width: 350px;
+    
+  }
+
+  #trackform:hover{
+    border: 3px solid black;
+    
+  }
+
+
+  #trackform:active {
+    border: 3px solid black;
+  }
+
+  
+
+  .input-group-text {
+    background-color: #fff;
+  }
+
+#buttontrack {
+    color: #fff;
+    background-color: var(--primary-color);
+    width: 100px;
+    border: none;
+}
+/* End Hero Section */
+
+/* Seamless Section */
+
+
+.seamless {
+    height: fit-content;
+    padding: 120px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-bg-color);
+    
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1600px)  {
+    .seamless{
+        padding: 120px 60px;
+    }
+
+}
+
+@media only screen and (max-width: 700px)  {
+    .seamless{
+        padding: 60px 20px;
+    }
+
+}
+
+.seam-h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+#borderboxes-a{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+#borderboxes {
+    display: flex;
+    justify-content: center;
+}
+
+#resp-box {
+    
+    width: 1000px;
+}
+
+.title {
+    margin: 25px 0;
+    color: var(--other-text-color) ;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 15px;
+    color: var(--other-text-color);
+}
+
+
+.card:hover {
+    position: relative;;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.card:hover .text {
+    color: #fff;
+}
+
+.card:hover .title {
+    color: #fff;
+}
+
+
+.card .cardsvg-2 {
+    display: none;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.card:hover .cardsvg {
+    display: none;
+}
+
+.card:hover .cardsvg-2 {
+    display: block;
+    filter: invert(99%) sepia(100%) saturate(2%) hue-rotate(199deg) brightness(106%) contrast(100%);
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px)  {
+    #borderboxes-a {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1201px)  {
+
+    
+
+    #borderboxes{
+        display: none;
+    }
+    
+}
+
+.card {
+    
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 250px;
+    width: 100%;
+    
+    cursor: pointer;
+    
+}
+
+.text {
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px)  {
+
+.card {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 0;
+    padding: 20px;
+    height: 250px;
+    cursor: pointer;
+    
+}
+
+.text {
+    text-align: left;
+}
+
+
+}
+
+
+
+/* End Seamless Section */
+
+
+
+/* App Section */
+
+.appsection {
+    height: max-content;
+    padding: 100px 0;
+    background-color: #000;
+}
+
+
+
+
+.apph2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+#leftcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+   
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1600px)  {
+    
+    #leftcol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 60px;
+       
+    
+    }
+
+}
+
+#rightcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1000px)  {
+
+#rightcol {
+    padding-top: 100px;
+}
+
+
+#leftcol {
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+}
+}
+
+
+.appbtn {
+    padding-right: 10px;
+}
+
+#appdownload-a {
+    
+    font-size: 12px;
+    width: 220px;
+    height: 80px;
+}
+
+.btnapp {
+    color: #000;
+}
+
+.btnapp:hover { 
+    color: #000;
+}
+
+
+
+#appdownload-b {
+    margin-left: 20px;
+    font-size: 12px;
+    width: 220px;
+    height: 80px;
+}
+
+
+/* End App Section */
+
+
+/* Begin Burden section */
+.burdensection {
+
+    background-color: var(--light-bg-color);
+    height: max-content;
+    padding: 100px 0;
+}
+
+
+
+#burdencontainer {
+    padding: 0 50px;
+}
+
+@media only screen and (min-width: 1601px)  {
+
+    #burdencontainer {
+        padding: 0 150px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1600px)  {
+    
+    #burdencontainer {
+        padding: 0 60px;
+    }
+}
+
+#burdentextsect {
+    margin-bottom: 100px;
+    padding-right: 20px;
+}
+
+.burdensvg {
+
+    margin-bottom: 30px;
+}
+
+.burdenhead {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.h5header {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.burdenp {
+    line-height: 1.5;
+}
+
+/* En Burden Section */
+
+/* Footer */
+.footer {
+    background: #19191b url(./images/footer-bg.2af3a12d.svg) no-repeat;
+    background-blend-mode: hard-light;
+    height: max-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.footerheading {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#footercolumn {
+    padding-bottom: 30px;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2;
+}
+
+.footerlinks:hover {
+    color: #fff;
+}
+
+
+.brandicons {
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+    filter: invert(99%) sepia(100%) saturate(2%) hue-rotate(199deg) brightness(106%) contrast(100%);
+}
+/* End Footer */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
