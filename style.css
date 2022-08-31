@@ -524,8 +524,12 @@ body{
 
 #rightcol {
     padding-top: 100px;
+    
 }
 
+.appimg {
+    width: 80%;
+}
 
 #leftcol {
     align-items: center;
